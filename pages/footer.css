@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 80px;
+    padding: 10px 0px;
+    /* border:  none; */
+    /* position: sticky; */
+    bottom: 0;
+    left: 0;
+    /* width: 100%; */
+    /* background: white; */
+}
+
+hr{
+    height: 1px;
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    background: white;
+    border:  none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.footer-container h2{
+    font-family: "Libre Baskerville", serif;
+}
+
+p{
+    font-family: "Libre Baskerville", serif;
+    font-size: 10px;
+}
+
+.icon{
+    display: flex;
+    gap: 20px;
+}
+
+.progress-bar {
+    height: 1px;
+    background: rgba(0 , 0, 0, 0.2);
+    width: 100%;
+}
+
+.progress-fill {
+    height: 100%;
+    background: black;
+    transition: width 0.3s ease;
+}

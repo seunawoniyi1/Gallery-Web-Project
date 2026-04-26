@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 50px;
+}
+
+.main-container {
+  margin-top: 50px;
+}
+
+/* 🔥 Masonry layout */
+.masonry {
+  column-count: 4;
+  column-gap: 20px;
+}
+
+/* images */
+.masonry img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
+}
+
+/* EXACT heights from your original code */
+.h-250 { height: 250px; }
+.h-260 { height: 260px; }
+.h-280 { height: 280px; }
+.h-285 { height: 285px; }
+.h-330 { height: 330px; }
+.h-340 { height: 340px; }
+.h-400 { height: 400px; }
+.h-420 { height: 420px; }
+.h-430 { height: 430px; }
+.h-500 { height: 500px; }
+.h-525 { height: 525px; }

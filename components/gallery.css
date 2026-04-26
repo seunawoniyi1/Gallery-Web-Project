@@ -1,0 +1,134 @@
+.main-container {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    display: flex;
+    /* background-color: rgb(105, 105, 65); */
+    width: 100%;
+    min-height: 100vh;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.row-section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* border: dotted; */
+    flex: 1;
+    width: 100%;
+    /* min-height: 100vh; */
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.row-section img {
+    width: 100%;
+    display: block;
+    object-fit: cover; 
+}
+
+.img-box {
+    position: relative ;
+}
+
+.img-box img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: white;
+  /* text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); */
+}
+
+.overlay h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-family: "Libre Baskerville", serif;  
+}
+
+/* .img-box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+} */
+
+.overlay p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif; 
+}
+
+@media (max-width: 1100px) {
+      body {
+        margin: 0 24px;
+      }
+      .main-container {
+        gap: 28px;
+        margin-top: 40px;
+      }
+      .row-section {
+        gap: 28px;
+      }
+      .overlay h3 {
+        font-size: 1rem;
+      }
+      .overlay p {
+        font-size: 0.75rem;
+      }
+      .overlay {
+        bottom: 20px;
+        left: 16px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      body {
+        margin: 0 16px;
+      }
+      .main-container {
+        flex-wrap: wrap;      
+        gap: 32px;
+      }
+      .row-section {
+        flex: 1 1 280px;   
+        min-width: 240px;
+      }
+      .overlay h3 {
+        font-size: 0.9rem;
+        
+      }
+    }
+
+    @media (max-width: 580px) {
+      .main-container {
+        flex-direction: column;
+        gap: 40px;
+      }
+      .row-section {
+        gap: 30px;
+      }
+      body {
+        margin: 0 20px;
+      }
+      .overlay {
+        bottom: 18px;
+        left: 14px;
+      }
+    }
+
+    
+    @media (max-width: 680px) {
+      .page-header h1 {
+        font-size: 1.7rem;
+      }
+    }
